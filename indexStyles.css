@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 99vh;
+    width: 99vw;
+    font-family: "Quicksand", sans-serif;
+    font-size: 22px;
+    background-color: #ebfccf;
+  }
+  
+  main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titlebox {
+    border: 2.5px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  h1{
+    color:#222420;
+  }
+  p{
+    font-size: 20px;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  .teaImages{
+
+  }
+  .greenLeft {
+    position: absolute;
+    top: 40px;
+    left: 20%;
+  }
+  .blackLeftB{
+    position: absolute;
+    bottom: 60px;
+    left: 20%;
+  }
+  .oolongRight{
+    position: absolute;
+    bottom: 40px;
+    right: 20%;
+  }
+  .pu-erhRight{
+    position: absolute;
+    top: 40px;
+    right:20%;
+  }
+  .quicknotes{
+    display: flex;
+    align-items: flex-end;
+  }
