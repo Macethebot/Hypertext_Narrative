@@ -1,0 +1,87 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Style+Script&display=swap');
+  
+body {
+    width:100%;
+    margin: 0;
+    font-family: "Quicksand";
+    font-size: 22px;
+    background-color: #e1d8c6;
+  }
+
+  #bagtea{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 40px;
+    width: 100%;
+  }
+  .boximg{
+    display: flex;
+    justify-content:flex-start;
+    margin: 40px;
+  }
+  .boxtea{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 80px;
+  }
+  .boxteatext{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 70px;
+  }
+
+  /* formating for top most section */
+
+
+  /* text styling */
+h2{
+    font-size: 45px;
+    color:#000000;
+  }
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+    line-height: 2;
+    word-spacing: .4px;
+    color:#000000;
+  }
+
+  #sampler{
+    position: absolute;
+    width:100px;
+    right:60%;
+    bottom:2%;
+    margin:20px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+
+  }
+  .boba{
+    margin-right: 50px;;
+  }
+  .leaves{
+    margin-right:50px;
+  }
+
+  .options{
+    width: 100%;
+    height: 20px;
+    top:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .returnMain{
+    text-align: center;
+    margin-right:50px;
+  }
