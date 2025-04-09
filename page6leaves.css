@@ -65,11 +65,12 @@ body {
   }
 
   .options{
-    position: absolute;
+    position: relative;
     width:100%;
     bottom:20%;
     text-align: center;
   }
+
   .returnMain{
     text-align: center;
     margin-right:50px;

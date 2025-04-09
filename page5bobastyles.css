@@ -14,8 +14,6 @@ body {
     text-align: center;
     background-color: #e1d8c6;
   }
- 
-  
   /* text styling */
   h2{
     font-family:  "Quicksand";
@@ -28,23 +26,24 @@ body {
     color:#000000;
   }
 
-.leteagal{
+div.leteagal{
+  position:relative;
     margin: 30px;
     border: 2px solid #a5a4a4;
     float: left;
-    width: 300px;
+    width: 220px;
   }
-.leteagal img {
+div.leteagal img {
     width: 100%;
-    height: 75%;
+    height: auto;
   }
-.teatext {
+div.teatext {
     padding: 20px;
     text-align: center;
   }
 
   #sampler{
-    position: absolute;
+    position: relative;
     width:100px;
     right:55%;
     bottom:2%;
@@ -55,13 +54,16 @@ body {
 
   }
   .bags{
-    margin-right: 50px;;
+    position: relative;
+    margin-right: 50px;
   }
   .leaves{
+    position: relative;
     margin-right:50px;
   }
 
   .options{
+    position: relative;
     width: 100%;
     height: 20px;
     top:10%;
@@ -71,6 +73,7 @@ body {
     text-align: center;
   }
   .returnMain{
+    position: relative;
     text-align: center;
     margin-right:50px;
   }
