@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Style+Script&display=swap');
   
 body {
-  background-image: url("img/homegreentea1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+    background-image: url("img/gtest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   
   main {
@@ -17,18 +17,12 @@ body {
   }
 
   /* formating for title text */
-  .titlebox {
-    position: absolute;
-    bottom: 20%;
-    left: 18%;
-    max-width: 35%;
-    text-align: center;
-  }
+
 
   /* text styling */
-  h1{
-    font-family:  "Style Script", cursive;
-    font-size: 100px;
+  h2{
+    font-family:  "Quicksand";
+    font-size: 40px;
     color:#FFFFFF;
   }
   p{
@@ -50,19 +44,13 @@ body {
   a:hover, a:active {
     background-color: #d1f2d1;
   }
-  .goabout {
+  .text1 {
     position: absolute;
-    margin-bottom: 30px;
-    left: 18%;
-    max-width: 35%;
+    
     text-align: center;
-    cursor: pointer;
   }
-  .page2 {
+  .text2 {
     position: absolute;
-    margin-bottom: 30px;
-    left: 60%;
-    max-width: 35%;
+  
     text-align: center;
-    cursor: pointer;
   }

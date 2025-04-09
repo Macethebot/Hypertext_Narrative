@@ -1,0 +1,54 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Style+Script&display=swap');
+  
+body {
+    margin: 0;
+    font-family: "Quicksand";
+    font-size: 22px;
+  }
+
+  /* formating for top most section */
+.bannerA {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #e1d8c6;
+  }
+
+  /* text styling */
+h2{
+    font-size: 45px;
+    color:#000000;
+  }
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color:#000000;
+  }
+
+  /* styling for the middle images */
+
+.leteagal{
+    margin: 100px;
+    border: 2px solid #a5a4a4;
+    float: left;
+    width: 400px;
+  }
+.leteagal img {
+    width: 100%;
+    height: auto;
+  }
+.teatext {
+    padding: 20px;
+    text-align: center;
+  }
+.bottom{ 
+    width: 100%;
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
