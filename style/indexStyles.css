@@ -8,7 +8,7 @@ html, body {
     width: 99vw;
     font-family: "Quicksand", sans-serif;
     font-size: 22px;
-    background-color: #ebfccf;
+    background-image: url("img\hometea.jpg");
   }
   
   main {
@@ -36,9 +36,6 @@ html, body {
   
   img {
     border-radius: 50%;
-  }
-  .teaImages{
-
   }
   .greenLeft {
     position: absolute;
